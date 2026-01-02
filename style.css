@@ -1,0 +1,112 @@
+/* reset box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* body styles */
+body {
+  margin: 0;
+  padding: 40px;                 /* space around container */
+  background: #2F498C;           /* page background color */
+  background-image: url("");
+  color:black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  line-height: 10px;
+  font-family: arial;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+/* container box */
+.main {
+    margin-left: auto;
+    width: 50%;
+    background: blue;
+    margin: 0px; 
+    margin-top: 60px; 
+    padding: 0px; 
+    border: 0px solid #666;
+}
+
+.lancienmain {   */ lancien main quoi, avant de suivre le tuto de https://itinerae.neocities.org/oldtimes */
+  max-width: 900px;              /* keep it from being too wide */
+  margin: auto;                  /* centers horizontally */
+  background: white;             /* box background */
+  background-image: url(".png");
+  background-size: 100%;
+  padding: 0px;
+  border-radius: 0px;           /* rounded corners */
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15); /* neat shadow */
+}
+
+
+/* optional extras */
+h1 {
+  text-align: center;
+}
+
+h2 {
+  
+}
+
+.logo {
+  width: 900px;
+  max-width: 900px;
+  background:black;
+    border-left: 2px solid #666;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #928F88;
+    border-top: 2px solid #666;
+}
+
+.ScrollingBanner {
+  position: relative;
+    top: -10px;
+    left: 0px;
+  font-size: 15px;
+  width: 900px;
+  height: 20px;
+  max-width: 900px;
+  color:white;
+  background:black;
+    border-left: 2px solid #666;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #928F88;
+    border-top: 2px solid #666;
+    padding: 5px;
+}
+
+#side {
+    position:relative;
+    margin-left:auto;
+    width: 180px;
+    margin: 0px; 
+    margin-top: 60px; 
+    padding: 0px; 
+    border: 0px solid #666;
+}
+
+.title {
+font: 9px arial black, calibri;
+    text-transform: uppercase;
+    color: #FFF;
+    width: 100%;
+    background: #E3F4E2 url(sunset.jpg);
+    letter-spacing: 3px;
+    padding-left: 4px;
+    border-bottom: 1px solid #fff;
+    padding-top: 2px; }
+    
+    .box {
+    background: #D4D0C8;
+    width: 100%;
+
+    border-left: 2px solid #666;
+    border-right: 2px solid #aaa;
+    border-bottom: 2px solid #928F88;
+    border-top: 2px solid #666;
+    padding: 4px;
+    margin-bottom: 4px;
+    }

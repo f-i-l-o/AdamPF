@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adam's website</title>
+    
+    <link href="/style2.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+  </head>
+  <body>
+    <div class="Header">
+    <div class="title">
+            Welcome to...
+            <img src="logo.gif" alt="Ciel gif"  class="logo" />
+            <img src="cross.png" alt="x" align="right" height="10" style="margin-right:4px;" />
+          </div>
+      
+
+      <div class="ScrollingBanner">
+        <!-- https://roboticoperatingbuddy.neocities.org/graphics   https://peachmortem.neocities.org/resources/resources -->
+        <marquee direction="right" scrollamount="10">
+          STADIUM STATUS !!!
+        </marquee>
+      </div>
+
+      <!-- MAIN + SIDEBAR live together and align inside Header -->
+      <div class="content">
+      <div id="side">
+          <div class="title">
+            THAT BACKGROUND IS BORING !!!!
+          </div>
+          <div class="box">
+            <button id="bg-toggle">Change Background</button>
+          </div>
+          <div class="title">
+           ABOUT ME !
+           </div>
+          <div class="box">
+            <a href="https://adam-barometz.neocities.org/Webmaster">A tad bit of litterature about my life</a>
+          </div>
+          
+          <div class="title">
+           ABOUT ME !
+           </div>
+          <div class="box">
+            <a href="https://adam-barometz.neocities.org/Webmaster">A tad bit of litterature about my life</a>
+          </div>
+          
+
+          <div class="title">
+           PLACEHOLDER !
+          </div>
+          <div class="box">
+            <img src="static.gif" alt="x">
+          </div>
+
+          <div class="title">
+            A PICTURE OF MY CAT
+          </div>
+          <div class="box">
+            <img src="bango.jpg" alt="x">
+          </div>
+          <div class="title">
+           whatever !
+          </div>
+          <div class="box">
+            ////////////
+          </div>
+        </div>
+        <div id="main">
+          <div class="title">
+            WHAT IS THIS PLACE ?
+          </div>
+          <div class="box">
+            My name is Adam, and this is my personal digital playground!      
+<br /><br />
+I love all kind of computer science and visual arts, and i've linked these two in many of my projects. I've been teaching myself occasionally (really occasionally) HTML since 2023, and as of 14/05/2025, I'm still working on this website regularly.
+Over the years, I’ve accumulated many projects — from Arduino work at school to shader shenanigans and game modding in my free time — and I’m still in the process of making them available here, so that’ll take a while.
+<br /><br />
+In the meantime : <span style="color: red; font-weight: bold;">EVERYTHING IS PENDING!</span> and most links are dead ! 
+
+            
+          </div>
+          <div class="title">
+            My hometown, as Vincent Van Gogh painted it
+          </div>
+          <div class="box">
+            <img src="van1.jpg" alt="x">
+          </div>
+        </div>
+
+        
+      </div>
+      
+    </div>
+    <script>
+  const images = [
+    "space.gif", 
+    "aa.gif",
+    "a.gif"
+  ];
+
+  let currentIndex = 0; // start at image1
+
+  document.getElementById("bg-toggle").addEventListener("click", () => {
+    // Move to the next image (wraps back to 0 after 2)
+    currentIndex = (currentIndex + 1) % images.length;
+
+    // Change the background image
+    document.body.style.backgroundImage = `url("${images[currentIndex]}")`;
+  });
+</script>
+
+  </body>
+</html>
